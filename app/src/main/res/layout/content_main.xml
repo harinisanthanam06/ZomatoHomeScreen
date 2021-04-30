@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="true">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/id"
+            android:layout_width="391dp"
+            android:layout_height="208dp"
+            app:auto_cycle="true"
+            app:delay="0"
+            app:period="2000"
+            app:placeholder="@color/black">
+
+
+        </com.denzcoskun.imageslider.ImageSlider>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+
+        android:layout_marginTop="230dp"
+        android:scrollbars="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

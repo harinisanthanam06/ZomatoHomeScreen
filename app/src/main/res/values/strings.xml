@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Britesy</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="titles">
+        <item>SANJAY VERMA,JAIPUR,INDIA</item>
+        <item>PRAMOD REDDY GADE,NUMBAI,INDIA</item>
+        <item>RAKHI KUMAR,GHAZIABAD,INDIA</item>
+        <item>SULEKHA CHOWDHURY,NEW DELHI,INDIA</item>
+        <item>AVINASH MOKASHE,NAVI MUMBAI,INDIA</item>
+        <item>AMRUT PATEL,JAIPUR,INDIA</item>
+        <item> VERMA,JAIPUR,INDIA</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>SOLO EXHIBITIONS
+            2011 Jehangir Art Gallery, Mumbai
+            2008 “Galactic Convention” Jehangir Art Gallery, Mumbai
+            GROUP EXHIBITIONS
+            2011 “Take 2” at Arushi Arts, New Delhi.
+            2010 “Paisa Paisa Money Money” Arushi Arts, New Delhi.
+            2010 “Moments” Arushi Arts, New Delhi.
+            2009 “Who We Are” at Sunjin Gallery, Singapore.</item>
+        <item>Pramod Reddy Gade is a trained mural artist. He is prolific and sensitive in his approach to painting. ... Pramod Reddy received his BFA in Painting from Jawaharlal Nehru Technological University, Hyderabad and his MFA in Mural from M.S. University, Baroda.</item>
+        <item>PHONE NUMBER:9363146997
+             Rakhi kumar has been on the national art scene for nearly four decades. His experimentation with visual imageries has earned him a distinctive place in the contemporary art world. Looking at his creative oeuvre one may marvel at the artist\'s deep sense of yearning to fathom out newer formal entities and configurations that appear on his canvases. Aesthetic serenity of colours, tonal variations, and the delicately balanced forms often juxtaposed on one another, are the hallmarks of a large number of works done by the artist. His most recent non-narrative works, mostly done in acrylic on canvas or paper, resonate with a brooding silence that invites the viewer into the realm of the \'virtual space\'.
+                 </item>
+        <item>Born: 1973
+Education: M.F.A Drawing and Painting, Institute of Fine Arts, Dhaka University, Bangladesh
+
+SULEKHA CHOWDURY once said of her art, I worked on the canvas. In this I brought in the economical standard of life around me. I wished to portray how different the life of the common man is compared to the standard he wishes to maintain.
+Sulekhas work focuses on the figure and landscapes. Morality is a recurrent theme in her paintings.
+
+Read Less</item>
+        <item>SOLO EXHIBITIONS
+            2011 Jehangir Art Gallery, Mumbai
+            2008 “Galactic Convention” Jehangir Art Gallery, Mumbai
+            GROUP EXHIBITIONS
+            2011 “Take 2” at Arushi Arts, New Delhi.
+            2010 “Paisa Paisa Money Money” Arushi Arts, New Delhi.
+            2010 “Moments” Arushi Arts, New Delhi.
+            2009 “Who We Are” at Sunjin Gallery, Singapore.</item>
+        <item>SOLO EXHIBITIONS
+            2011 Jehangir Art Gallery, Mumbai
+            2008 “Galactic Convention” Jehangir Art Gallery, Mumbai
+            GROUP EXHIBITIONS
+            2011 “Take 2” at Arushi Arts, New Delhi.
+            2010 “Paisa Paisa Money Money” Arushi Arts, New Delhi.
+            2010 “Moments” Arushi Arts, New Delhi.
+            2009 “Who We Are” at Sunjin Gallery, Singapore.</item>
+        <item>SOLO EXHIBITIONS
+            2011 Jehangir Art Gallery, Mumbai
+            2008 “Galactic Convention” Jehangir Art Gallery, Mumbai
+            GROUP EXHIBITIONS
+            2011 “Take 2” at Arushi Arts, New Delhi.
+            2010 “Paisa Paisa Money Money” Arushi Arts, New Delhi.
+            2010 “Moments” Arushi Arts, New Delhi.
+            2009 “Who We Are” at Sunjin Gallery, Singapore.</item>
+
+    </string-array>
+
+</resources>

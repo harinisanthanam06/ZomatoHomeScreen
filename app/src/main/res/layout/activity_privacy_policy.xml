@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicy"
+    android:background="@color/lightWhite">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="668dp"
+        android:background="#044267"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Privacy policy"
+        app:titleTextColor="#FFFFFF">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="397dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="526dp"
+        android:justificationMode="inter_word"
+        android:text="Britesy -Art gallery firmly believes in the security of your privacy .This pricipal guides everything that  we strive to achieve.All your details in correspondence wwith us is completely private and confedential.All the information provided by you as a registered user is never shared with any individual or any third party unless you explicitly inform to do do the same. We are commited to protect and safeguard your privacy at our site"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="347dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="451dp"
+        android:text="Please contact us at harinisanthanam0@gmail.com for any enquiry or clarification."
+        android:textColor="@color/black"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="167dp"
+        android:layout_marginBottom="388dp"
+        android:text="Thank you"
+        android:textColor="@color/black" />
+</RelativeLayout>

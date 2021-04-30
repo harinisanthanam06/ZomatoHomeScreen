@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Britesy.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#064773"
+            app:popupTheme="@style/Theme.Britesy.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_main" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@drawable/op"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:menu="@menu/home"
+        app:labelVisibilityMode="unlabeled"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemIconSize="30dp"
+        app:elevation="2dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottomBar"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

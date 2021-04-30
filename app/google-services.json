@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631044306975",
+    "project_id": "britesy-66ebf",
+    "storage_bucket": "britesy-66ebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631044306975:android:90eaaed32c6e2e2e46bd2a",
+        "android_client_info": {
+          "package_name": "com.example.britesy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631044306975-nuelgmmlbriv2gn6iomovmrus23ojtml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCydkn2S3lF3o0pgq49IT0JRkidqcMMCx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631044306975-nuelgmmlbriv2gn6iomovmrus23ojtml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

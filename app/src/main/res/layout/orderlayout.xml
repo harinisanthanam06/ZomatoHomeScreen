@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4588D5"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="user name"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="phone number"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/art_price"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:text="total_price"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/art_price"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="address"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/user_city"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_address"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="city"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/user_state"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_city"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="state"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_state"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="date,time"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/show_arts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="SHOW THIS ART DETAILS"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:layout_below="@+id/date">
+
+        </Button>
+        <Button
+            android:id="@+id/arts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="ADD SHIPPING STATE"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:layout_below="@+id/show_arts">
+
+        </Button>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
